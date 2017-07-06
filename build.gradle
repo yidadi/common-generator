@@ -1,0 +1,42 @@
+version = '1.0-SNAPSHOT'
+group = 'com.beecloud.common'
+
+apply plugin: 'java'
+sourceCompatibility = 1.8
+ext {
+	guavaVerson = '19.0'
+	commonsLang3Version = '3.4'
+	jodaTimeVersion = '2.9.4'
+	commonsCollections4Version = '4.1'
+	swaggerVesion = '2.5.0'
+}
+repositories {
+	mavenLocal()
+	maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+	mavenCentral()
+}
+dependencies {
+	compile group: 'com.google.guava', name: 'guava', version: '19.0'
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
+	compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.1'
+	compile group: 'joda-time', name: 'joda-time', version: '2.9.4'
+	compile group: 'commons-beanutils', name: 'commons-beanutils', version: '1.9.2'
+	compile group: 'org.apache.velocity', name: 'velocity', version: '1.7'
+	compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.21'
+	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.21'
+
+//	compile (
+//			group:"com.google.guava:guava:${guavaVerson}",
+//			"org.apache.commons:commons-lang3:${commonsLang3Version}",
+//			"org.apache.commons:commons-collections4:${commonsCollections4Version}",
+//			"joda-time:joda-time:${jodaTimeVersion}",
+//			"commons-beanutils:commons-beanutils:1.9.2",
+//			"mysql:mysql-connector-java:5.1.21",
+//			"org.apache.velocity:velocity:1.7",
+//			"org.slf4j:slf4j-api:1.7.21",
+//			"io.springfox:springfox-swagger-ui:${swaggerVesion}",
+//			"io.springfox:springfox-swagger2:${swaggerVesion}"
+//
+//	)
+}
+
