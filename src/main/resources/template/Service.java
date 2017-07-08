@@ -1,7 +1,7 @@
-package com.${companyName}.${projectName}.microservice.service;
+package com.${companyName}.${projectName}.service;
 
 import com.${companyName}.common.core.service.BaseService;
-import com.${companyName}.vehicle.microservice.entity.${Entity}Entity;
+import com.${companyName}.${projectName}.entity.${Entity}Entity;
 
 /**
  * ${Entity} Service层接口

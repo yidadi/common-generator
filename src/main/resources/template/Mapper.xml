@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="cn.gaiasys.${projectName}.mapper.ccb.${Entity}Mapper">
-	<resultMap id="${entity}Entity" type="cn.gaiasys.${projectName}.domain.${Entity}Entity">
+<mapper namespace="com.${companyName}.${projectName}.dao.${Entity}Mapper">
+	<resultMap id="${entity}Entity" type="com.${companyName}.${projectName}.entity.${Entity}Entity">
 #foreach($element in $propertyList)
 #if(${element.columnName} == 'id')
 		<id column="${element.columnName}" property="${element.property}" />
@@ -87,7 +87,7 @@
 	</select>
 
 	<!-- query count ${Entity}Entity By ${Entity}Query -->
-	<select id="countByQuery" parameterType="cn.gaiasys.${projectName}.domain.query.${Entity}Query"
+	<select id="countByQuery" parameterType="com.${companyName}.${projectName}.query.${Entity}Query"
 		resultType="_long">
 		SELECT count(id)
 		FROM ${TableName}
@@ -95,7 +95,7 @@
 	</select>
 
 	<!-- query all ${Entity}Entity By ${Entity}Query -->
-	<select id="findByQuery" parameterType="cn.gaiasys.${projectName}.domain.query.${Entity}Query"
+	<select id="findByQuery" parameterType="com.${companyName}.${projectName}.query.${Entity}Query"
 		resultMap="${entity}Entity">
 		SELECT
 		<include refid="main_columns" />

@@ -1,11 +1,11 @@
-package com.${companyName}.${projectName}.microservice.dao;
+package com.${companyName}.${projectName}.dao;
 
 import java.util.List;
 
-import com.${companyName}.${projectName}.damain.query.${Entity}Query;
-import com.${companyName}.${projectName}.microservice.${ProjectName}MicroServiceApplication;
-import com.${companyName}.${projectName}.microservice.entity.${Entity}Entity;
-import com.${companyName}.${projectName}.microservice.dao.${Entity}dao;
+import com.${companyName}.${projectName}.query.${Entity}Query;
+import com.${companyName}.${projectName}.${ProjectName}MicroServiceApplication;
+import com.${companyName}.${projectName}.entity.${Entity}Entity;
+import com.${companyName}.${projectName}.dao.${Entity}dao;
 
 
 import org.slf4j.Logger;

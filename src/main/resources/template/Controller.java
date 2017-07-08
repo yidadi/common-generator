@@ -1,6 +1,6 @@
-package com.${companyName}.${projectName}.microservice.controller;
+package com.${companyName}.${projectName}.controller;
 
-import com.${companyName}.${projectName}.microservice.service.${Entity}Service;
+import com.${companyName}.${projectName}.service.${Entity}Service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

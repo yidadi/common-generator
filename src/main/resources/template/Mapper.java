@@ -1,7 +1,7 @@
-package com.${companyName}.${projectName}.microservice.dao;
+package com.${companyName}.${projectName}.dao;
 
-import cn.${companyName}.common.core.dao.BaseDao;
-import cn.${companyName}.${projectName}.domain.${Entity}Entity;
+import com.${companyName}.common.core.dao.BaseDao;
+import com.${companyName}.${projectName}.domain.${Entity}Entity;
 
 /**
  * @description：${entityComment}操作数据库的接口

@@ -1,4 +1,4 @@
-package com.${companyName}.${projectName}.microservice.entity;
+package com.${companyName}.${projectName}.entity;
 
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;

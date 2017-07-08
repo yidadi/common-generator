@@ -1,4 +1,4 @@
-package com.${companyName}.${projectName}.domain.query;
+package com.${companyName}.${projectName}.query;
 
 import com.${companyName}.common.core.query.BaseQuery;
 import io.swagger.annotations.ApiModel;

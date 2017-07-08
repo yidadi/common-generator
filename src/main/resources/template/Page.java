@@ -1,4 +1,4 @@
-package com.${companyName}.${projectName}.domain.page;
+package com.${companyName}.${projectName}.page;
 
 import com.${companyName}.common.core.page.Page;
 import com.${companyName}.${projectName}.domain.dto.${Entity}Dto;

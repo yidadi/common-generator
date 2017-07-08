@@ -1,4 +1,4 @@
-package com.${companyName}.${projectName}.domain.dto;
+package com.${companyName}.${projectName}.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
