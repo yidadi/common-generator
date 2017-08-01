@@ -1,6 +1,6 @@
 package com.${companyName}.${projectName}.dao;
 
-import com.${companyName}.common.core.dao.BaseDao;
+import com.base.core.dao.BaseDao;
 import com.${companyName}.${projectName}.domain.${Entity}Entity;
 
 /**

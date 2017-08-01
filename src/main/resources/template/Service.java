@@ -1,6 +1,6 @@
 package com.${companyName}.${projectName}.service;
 
-import com.${companyName}.common.core.service.BaseService;
+import com.base.core.service.BaseService;
 import com.${companyName}.${projectName}.entity.${Entity}Entity;
 
 /**

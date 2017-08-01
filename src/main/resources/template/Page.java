@@ -1,6 +1,6 @@
 package com.${companyName}.${projectName}.page;
 
-import com.${companyName}.common.core.page.Page;
+import com.base.core.page.Page;
 import com.${companyName}.${projectName}.domain.dto.${Entity}Dto;
 
 import java.util.List;

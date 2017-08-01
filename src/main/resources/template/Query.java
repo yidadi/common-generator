@@ -1,6 +1,6 @@
 package com.${companyName}.${projectName}.query;
 
-import com.${companyName}.common.core.query.BaseQuery;
+import com.base.core.query.BaseQuery;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
